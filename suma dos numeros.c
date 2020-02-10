@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include <stdlib.h> //Standard library
+#include <stdio.h> //Standard input / output
 
-int main()
-{
-    int n1, n2;
+int main() {
+    int a = 0;
+    int b = 0;
 
-    printf( "\n   Introduzca el primer numero (entero): " );
-    scanf( "%d", &n1 );
+    scanf("%i%*c", &a);
+    scanf("%i%*c", &b);
 
-    printf( "\n   Introduzca el segundo numero (entero): " );
-    scanf( "%d", &n2 );
+    int result = a + b;
 
-    printf( "\n   La suma es: %d", n1 + n2 );
+    printf("%i", result);
 
     return 0;
 }
