@@ -3,13 +3,16 @@
 
 
 int main() {
-    int a = 0;
-    int b = 0;
+  int numeros,i,a,result;
+  
+  
+    scanf("%d", &numeros);
 
-    scanf("%i%*c", &a);
-    scanf("%i%*c", &b);
-
-    int result = a + b;
+    for(i=0;i<numeros;i++){
+        scanf("%i%*c", &a);
+        result=result+a;
+    }
+   
 
     printf("%i", result);
 
