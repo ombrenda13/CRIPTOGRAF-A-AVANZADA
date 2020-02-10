@@ -3,7 +3,7 @@
 
 
 int main() {
-  int numeros,i,a,result=0;
+  int numeros=0,i,a=0,result=0;
 
 
     scanf("%i%*c", &numeros);
