@@ -5,9 +5,8 @@
 int main() {
     int n=0;
     int a = 0;
-    int b = 0;
     
-    int result=0;
+    int result;
     scanf("%i%*c", &n);
     for(int i=0;i<n;i++){
       scanf("%i%*c", &a);
@@ -16,6 +15,6 @@ int main() {
   //  scanf("%i%*c", &a);
   //  scanf("%i%*c", &b);
  //   int result = a + b;
-    printf("%i", result);
+    printf("%d", result);
     return 0;
 }
