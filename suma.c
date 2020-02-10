@@ -6,10 +6,10 @@ int main() {
   int numeros,i,a,result=0;
 
 
-    scanf("%d", &numeros);
+    scanf("%i%*c", &numeros);
 
     for(i=0;i<numeros;i++){
-        scanf("%d", &a);
+        scanf("%i%*c" &a);
         result=result+a;
     }
 
