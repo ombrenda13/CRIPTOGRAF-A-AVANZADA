@@ -9,12 +9,12 @@ int main() {
     scanf("%d", &numeros);
 
     for(i=0;i<numeros;i++){
-        scanf("%i%*c", &a);
+        scanf("%d", &a);
         result=result+a;
     }
    
 
-    printf("%i", result);
+    printf("%d", result);
 
     return 0;
 }
