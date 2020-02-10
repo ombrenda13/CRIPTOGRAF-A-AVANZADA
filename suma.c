@@ -1,6 +1,7 @@
 #include <stdlib.h> //Standard library
 #include <stdio.h> //Standard io
 
+
 int main() {
     int a = 0;
     int b = 0;
