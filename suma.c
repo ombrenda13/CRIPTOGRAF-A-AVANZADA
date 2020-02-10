@@ -2,20 +2,20 @@
 #include <stdio.h> //Standard input / output
 
 int main() {
-    int a = 0;
-    int b = 0;
-        int c= 0;
+    float a = 0;
+    float b = 0;
+      float c= 0;
 
-        int d = 0;
+        float d = 0;
 
 
-    scanf("%i%*c", &a);
-    scanf("%i%*c", &b);
-    scanf("%i%*c", &c);
-    scanf("%i%*c", &d);
+    scanf("%f%*c", &a);
+    scanf("%f%*c", &b);
+    scanf("%f%*c", &c);
+    scanf("%f%*c", &d);
     int result = a + b+c+d;
 
-    printf("%i", result);
+    printf("%f", result);
 
     return 0;
 }
